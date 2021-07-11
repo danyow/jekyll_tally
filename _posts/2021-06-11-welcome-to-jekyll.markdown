@@ -1,8 +1,10 @@
 ---
-date: 2021-07-11 09:08:16 +0800
+date: 2021-06-11 09:08:16 +0800
 class: [AAA, Bbb]
+classes: [[AAA, Bbb]]
 subject: [ccc, ddd, eee]
-name: "a_b_c_d_e_f"
+subjects: [[ccc, ddd], [eee, ddd]]
+name: "a_b_c_d_e_f" 
 tally:
   number: 412
 cjyb:

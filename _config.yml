@@ -58,14 +58,18 @@ classify:
   layout:  subjects
   enabled: all
   permalinks:
-    year:       "/:year/"
-    year_week:  "/:year/:week/"
-    month:      "/:year/:month/"
-    month_week: "/:year/:month/:week/"
-    day:        "/:year/:month/:day/"
-    week:       "/week/:week/"
-    subject:    "/subject/:subject/"
-    class:      "/class/:class/"
+    year:             "/:year/"
+    year_week:        "/:year/:week/"
+    month:            "/:year/:month/"
+    month_week:       "/:year/:month/:week/"
+    day:              "/:year/:month/:day/"
+    week:             "/week/:week/"
+    subject:          "/subject/:subject/"
+    class:            "/class/:class/"
+    classes:          "/classes/:classes/"
+    subjects:         "/subjects/:subjects/"
+    class_subjects:   "/class_subjects/:class/:subjects/"
+    classes_subjects: "/classes_subjects/:classes/:subjects/"
 
 
 test: &test
