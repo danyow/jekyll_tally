@@ -1,0 +1,3 @@
+[submodule "_plugins/lib_jekyll_tags"]
+	path = _plugins/lib_jekyll_tags
+	url = git@github.com:danyow/lib_jekyll_tags.git
