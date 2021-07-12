@@ -71,11 +71,10 @@ classify:
     class_subjects:   "/class_subjects/:class/:subjects/"
     classes_subjects: "/classes_subjects/:classes/:subjects/"
 
-
-test: &test
+cjyb: &canyin
   name:     餐饮
-  category: 0
-  tags: [ 1, 2, 3, 6 ]
+  class:    0
+  subject: [ 1, 2, 3, 6 ]
   count:    4
   average:  5
   avg_unit: '%s/人'
@@ -83,4 +82,4 @@ test: &test
 counter:
   unit: "%s ¥"
   classify:
-    - <<: *test
+    - cjyb: *canyin
