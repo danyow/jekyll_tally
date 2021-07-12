@@ -72,12 +72,12 @@ classify:
     classes_subjects: "/classes_subjects/:classes/:subjects/"
 
 cjyb: &canyin
-  name:     餐饮
-  class:    0
-  subject: [ 1, 2, 3, 6 ]
-  count:    4
-  average:  5
-  avg_unit: '%s/人'
+  name:  餐饮
+  class: 0
+  subject: [ 1, 2, 3, 4 ]
+  count: 5
+  int: [ 6, 7 ]
+  formatter: [ '从:3到:4', ':6:sum:7人' ]
 
 counter:
   unit: "%s ¥"
