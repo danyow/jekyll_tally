@@ -71,7 +71,7 @@ classify:
     class_subjects:   "/class_subjects/:class/:subjects/"
     classes_subjects: "/classes_subjects/:classes/:subjects/"
 
-cjyb: &canyin
+cjyb: &cjyb
   name:  餐饮
   class: 0
   count: 5
@@ -80,7 +80,17 @@ cjyb: &canyin
   tags: [ '从:3到:4:4:3:4:3:3' ]
   formatter: [ ':sum_2:6:7人:div_2:7:6个' ]
 
+jnts: &jnts
+  name: 交通
+  class: 0
+  count: 5
+  int: [ 6, 7 ]
+  subject: [ 1, 2, 3, 4 ]
+  tags: [ '从:3到:4' ]
+  formatter: [ ':sum_2:6:7人:div_2:7:6个' ]
+
 counter:
   unit: "%s ¥"
   classify:
-    - cjyb: *canyin
+    - cjyb: *cjyb
+    - jnts: *jnts
