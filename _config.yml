@@ -74,10 +74,11 @@ classify:
 cjyb: &canyin
   name:  餐饮
   class: 0
-  subject: [ 1, 2, 3, 4 ]
   count: 5
   int: [ 6, 7 ]
-  formatter: [ '从:3到:4', ':6:sum:7人' ]
+  subject: [ 1, 2, 3, 4 ]
+  tags: [ '从:3到:4:4:3:4:3:3' ]
+  formatter: [ ':sum_2:6:7人:div_2:7:6个' ]
 
 counter:
   unit: "%s ¥"
