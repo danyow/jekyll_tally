@@ -68,11 +68,12 @@ classify:
     class:            "/class/:class/"
     classes:          "/classes/:classes/"
     subjects:         "/subjects/:subjects/"
+    class_subject:    "/class_subject/:class/:subject/"
     class_subjects:   "/class_subjects/:class/:subjects/"
     classes_subjects: "/classes_subjects/:classes/:subjects/"
 
 cjyb: &cjyb
-  name:  餐饮
+  key:   cjyb
   class: 0
   count: 5
   int: [ 6, 7 ]
@@ -81,7 +82,7 @@ cjyb: &cjyb
   formatter: [ ':sum_2:6:7人:div_2:7:6个' ]
 
 jnts: &jnts
-  name: 交通
+  key:   jnts
   class: 0
   count: 5
   int: [ 6, 7 ]
@@ -89,8 +90,9 @@ jnts: &jnts
   tags: [ '从:3到:4' ]
   formatter: [ ':sum_2:6:7人:div_2:7:6个' ]
 
-counter:
+tally:
   unit: "%s ¥"
-  classify:
-    - cjyb: *cjyb
-    - jnts: *jnts
+  combine: true
+  templates:
+    - <<: *cjyb
+    - <<: *jnts

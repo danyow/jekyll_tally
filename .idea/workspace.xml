@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="提交内容代码">
+    <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="大体量代码提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/counter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/counter.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/hooks_doc.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/hooks_doc.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/subject.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/subject.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-06-11-welcome-to-jekyll.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-06-11-welcome-to-jekyll.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-07-11-welcome-to-jekyll.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-07-11-welcome-to-jekyll.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/strings.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/strings.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/_plugins/lib_jekyll_tags" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -67,7 +65,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626064100467</updated>
-      <workItem from="1626064102224" duration="22907000" />
+      <workItem from="1626064102224" duration="23052000" />
+      <workItem from="1626094007513" duration="1688000" />
     </task>
     <task id="LOCAL-00001" summary="提交内容代码">
       <created>1626082227963</created>
@@ -76,7 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626082227963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="大体量代码提交">
+      <created>1626093255698</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626093255698</updated>
+    </task>
+    <task id="LOCAL-00003" summary="大体量代码提交">
+      <created>1626093277502</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626093277502</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,17 +105,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="提交内容代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交内容代码" />
+    <MESSAGE value="大体量代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="大体量代码提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/_plugins/lib_jekyll_tags/counter.rb</url>
-          <line>154</line>
+          <line>170</line>
           <properties myBlockOrdinal="-1">
             <option name="block-ordinal" value="-1" />
           </properties>
@@ -110,7 +126,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/_plugins/lib_jekyll_tags/counter.rb</url>
-          <line>151</line>
+          <line>167</line>
           <properties myBlockOrdinal="-1">
             <option name="block-ordinal" value="-1" />
           </properties>
@@ -118,7 +134,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/_plugins/lib_jekyll_tags/counter.rb</url>
-          <line>148</line>
+          <line>164</line>
           <properties myBlockOrdinal="-1">
             <option name="block-ordinal" value="-1" />
           </properties>
@@ -128,6 +144,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/jekyll_tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1626092782644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
+    <SUITE FILE_PATH="coverage/jekyll_tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1626095674839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
   </component>
 </project>
