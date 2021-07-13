@@ -98,7 +98,13 @@ two: &two
   formatter: [ ':sum_2:6:7人:div_2:7:6个' ]
 
 tally:
-  combine: false
+  combine:
+    - find: class
+      to:   classes
+      deep: 2
+    - find: subject
+      to:   subjects
+      deep: 2
   default: *default
   templates:
     one: *one
