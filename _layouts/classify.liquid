@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{% assign types = "year, month, day, year_week, week, tag, category, categories, tags, category_tag, category_tags, categories_tags" | split: ", " %}
+
+{% for type in types %}
+    <h2>{{ type }}</h2>
+    {% for page in site.pages %}
+        {% if page.layout == "subjects" %}
+            {% if page.type == type %}
+                <p><a href="{{ page.url }}"> {{ page.filters | join: "/" }}</a>   {{ page.sum }}</p>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
