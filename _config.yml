@@ -92,7 +92,7 @@ jnts: &jnts
 
 tally:
   unit: "%s ¥"
-  combine: true
+  combine: false
   templates:
     - <<: *cjyb
     - <<: *jnts
