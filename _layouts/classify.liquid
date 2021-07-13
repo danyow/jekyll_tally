@@ -7,10 +7,8 @@ layout: default
 {% for type in types %}
     <h2>{{ type }}</h2>
     {% for page in site.pages %}
-        {% if page.layout == "subjects" %}
-            {% if page.type == type %}
-                <p><a href="{{ page.url }}"> {{ page.filters | join: "/" }}</a>   {{ page.sum }}</p>
-            {% endif %}
+        {% if page.type == type %}
+            <p><a href="{{ page.url }}"> {{ page.filters | join: "/" }}</a>   {{ page.sum }}</p>
         {% endif %}
     {% endfor %}
 {% endfor %}

@@ -80,8 +80,6 @@ test_1: &test_1
   count: 3
   keys: [ 类别, 作用, 名称, 花费, 个数 ]
 
-
-
 tally:
   combine:
     - find: category
