@@ -79,6 +79,10 @@ test_1: &test_1
   title: ":2:div_2:3:4元/个"
   count: 3
   keys: [ 类别, 作用, 名称, 花费, 个数 ]
+test_2: &test_2
+  tag: [ 1, 2, 3 ]
+  title: ":1里的:2名是:3"
+  count: 3
 
 tally:
   combine:
@@ -88,4 +92,5 @@ tally:
   default: *default
   templates:
     test_1: *test_1
+    test_2: *test_2
 
