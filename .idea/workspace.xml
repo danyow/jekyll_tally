@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="单文件模式完成">
-      <change afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/day_page.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/month_page.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/multiple_page.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/single_page.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/week_page.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/weeks_page.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/year_page.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jekyll_tally.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jekyll_tally.iml" afterDir="false" />
+    <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="多文件修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/doc_reader.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/item.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/subjects.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/subjects.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/test.liquid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/items_to_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/items_to_page.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/base_page.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/template.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/utils.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/utils.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/base_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/base_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/day_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/day_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/month_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/month_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/multiple_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/multiple_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/single_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/single_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/week_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/week_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/weeks_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/weeks_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/year_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/year_page.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins_old/lib_jekyll_tags/template.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins_old/lib_jekyll_tags/template.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-06-11.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-06-11.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-06-22.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-06-22.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +105,7 @@
       <workItem from="1626237919528" duration="3754000" />
       <workItem from="1626314017363" duration="508000" />
       <workItem from="1626696021728" duration="458000" />
-      <workItem from="1626738836733" duration="6219000" />
+      <workItem from="1626738836733" duration="9449000" />
     </task>
     <task id="LOCAL-00001" summary="提交内容代码">
       <created>1626082227963</created>
@@ -190,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626182170585</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="多文件修改">
+      <created>1626745101197</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1626745101197</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,24 +225,25 @@
     <MESSAGE value="周处理" />
     <MESSAGE value="单文件模式" />
     <MESSAGE value="单文件模式完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="单文件模式完成" />
+    <MESSAGE value="多文件修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="多文件修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/base_page.rb</url>
-          <line>164</line>
+          <line>39</line>
           <properties myBlockOrdinal="-1">
             <option name="block-ordinal" value="-1" />
           </properties>
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/jekyll_tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1626744941529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
+    <SUITE FILE_PATH="coverage/jekyll_tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1626748265684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
     <SUITE FILE_PATH="coverage/tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1626198528110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
   </component>
 </project>

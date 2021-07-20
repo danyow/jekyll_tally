@@ -2,12 +2,6 @@
 layout: default
 ---
 
-<p>{{ page }}</p>
-<h2>{{ page.filters | join: "/" }} {{ page.type }} {{ page.sum }}</h2>
-{% for doc in page.docs %}
-    {{ doc.data }}
-    <p><a href="{{ doc.data.permalink }}"> {{ doc.data.tag | join: "/" }}</a> {{ doc.data.count }}</p>
-{% endfor %}
 
 {{ content }}
 
