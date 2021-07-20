@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="单文件模式完成">
+      <change afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/day_page.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/month_page.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/multiple_page.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/single_page.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/week_page.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/weeks_page.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/year_page.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jekyll_tally.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jekyll_tally.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/classify.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/classify.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/subjects.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/subjects.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/classify.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/classify.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/strings.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/strings.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/subject.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/subject.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/template.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/template.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-06-11.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-06-11.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/doc_reader.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/item.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/items_to_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/items_to_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/base_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/template.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/utils.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/utils.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/version.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +66,9 @@
       <recent name="E:\jekyll\jekyll_tally" />
       <recent name="C:\Users\YF\Documents\jekyll\tally" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\jekyll\jekyll_tally\_plugins\lib_jekyll_tags\pages" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="server" type="RubyRunConfigurationType" factoryName="Ruby">
@@ -67,7 +76,7 @@
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="true" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="ruby-3.0.1-p64" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="ruby-3.0.2-p107" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
@@ -91,6 +100,11 @@
       <workItem from="1626094007513" duration="1688000" />
       <workItem from="1626104850826" duration="7479000" />
       <workItem from="1626151564217" duration="29182000" />
+      <workItem from="1626228188740" duration="2029000" />
+      <workItem from="1626237919528" duration="3754000" />
+      <workItem from="1626314017363" duration="508000" />
+      <workItem from="1626696021728" duration="458000" />
+      <workItem from="1626738836733" duration="6219000" />
     </task>
     <task id="LOCAL-00001" summary="提交内容代码">
       <created>1626082227963</created>
@@ -209,18 +223,18 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/_plugins/lib_jekyll_tags/hooks_doc.rb</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/base_page.rb</url>
+          <line>164</line>
           <properties myBlockOrdinal="-1">
             <option name="block-ordinal" value="-1" />
           </properties>
-          <option name="timeStamp" value="132" />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/jekyll_tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1626095674839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
+    <SUITE FILE_PATH="coverage/jekyll_tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1626744941529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
     <SUITE FILE_PATH="coverage/tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1626198528110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
   </component>
 </project>
