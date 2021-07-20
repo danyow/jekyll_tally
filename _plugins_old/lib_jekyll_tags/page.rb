@@ -49,6 +49,7 @@ module Jekyll
 
         @content = Template.docs_to_yml(docs)
 
+        puts @content
       end
 
       # @return [Array<Float>]
