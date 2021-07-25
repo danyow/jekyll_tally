@@ -74,23 +74,67 @@ classify:
 templates: &default
   category: 0
 
-test_1: &test_1
-  tag: [ 1, 2 ]
-  title: ":2:div_2:3:4元/个"
-  count: 3
-  keys: [ 类别, 作用, 名称, 花费, 个数 ]
-test_2: &test_2
-  tag: [ 1, 2, 3 ]
-  title: ":1里的:2名是:3"
-  count: 3
+cjyb: &cjyb
+  tags: [ 1, 2, 3, 6 ]
+  count: 4
+
+yule: &yule
+  tags: [ 1, 2, 3, 6 ]
+  count: 4
+
+lkui: &lkui
+  tags: [ 1, 2, 3, 6 ]
+  count: 4
+
+icui: &icui
+  tags: [ 1, 2, 3, 6 ]
+  count: 4
+
+jnts: &jnts
+  tags: [ 1, 6 ]
+  count: 4
+
+hrkr: &hrkr
+  tags: [ 1, 2, 3 ]
+  count: 4
+
+ugho: &ugho
+  tags: [ 1, 2, 3, 6 ]
+  count: 4
+
+tsxb: &tsxb
+  tags: [ 1, 2, 6 ]
+  count: 5
+
+yewu: &yewu
+  tags: [ 1, 2, 3, 5 ]
+  count: 4
+
+viiu: &viiu
+  tags: [ 1, 2, 3, 5 ]
+  count: 4
+
+rfqk: &rfqk
+  tags: [ 1, 2, 3, 6 ]
+  count: 4
+
+yiln: &yiln
+  tags: [ 1, 2, 3, 5 ]
+  count: 4
 
 tally:
-  combine:
-    - find: category
-      to:   categories
-      deep: 2
   default: *default
   templates:
-    test_1: *test_1
-    test_2: *test_2
+    cjyb: *cjyb
+    yule: *yule
+    lkui: *lkui
+    icui: *icui
+    jnts: *jnts
+    hrkr: *hrkr
+    ugho: *ugho
+    tsxb: *tsxb
+    yewu: *yewu
+    viiu: *viiu
+    rfqk: *rfqk
+    yiln: *yiln
 
