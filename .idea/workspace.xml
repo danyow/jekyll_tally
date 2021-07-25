@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="多文件修改">
+    <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="重新来">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/docs_to_items.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/docs_to_items.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/item.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/base_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/base_page.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/utils.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/utils.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-06-11.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-06-11.markdown" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/_plugins/lib_jekyll_tags" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -96,7 +96,8 @@
       <workItem from="1626696021728" duration="458000" />
       <workItem from="1626738836733" duration="10308000" />
       <workItem from="1626779960951" duration="126000" />
-      <workItem from="1627012497761" duration="8140000" />
+      <workItem from="1627012497761" duration="9469000" />
+      <workItem from="1627178264954" duration="4153000" />
     </task>
     <task id="LOCAL-00001" summary="提交内容代码">
       <created>1626082227963</created>
@@ -203,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626779980912</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="重新来">
+      <created>1627030697296</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1627030697296</updated>
+    </task>
+    <task id="LOCAL-00017" summary="重新来">
+      <created>1627096375726</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1627096375726</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +246,8 @@
     <MESSAGE value="单文件模式" />
     <MESSAGE value="单文件模式完成" />
     <MESSAGE value="多文件修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="多文件修改" />
+    <MESSAGE value="重新来" />
+    <option name="LAST_COMMIT_MESSAGE" value="重新来" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -254,43 +270,11 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/base_page.rb</url>
-          <line>273</line>
+          <line>276</line>
           <properties myBlockOrdinal="-1">
             <option name="block-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/base_page.rb</url>
-          <line>236</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/base_page.rb</url>
-          <line>191</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/_plugins/lib_jekyll_tags/item.rb</url>
-          <line>61</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/_plugins/lib_jekyll_tags/item.rb</url>
-          <line>60</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="76" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -303,7 +287,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/jekyll_tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1627030659396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
+    <SUITE FILE_PATH="coverage/jekyll_tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1627182311027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
     <SUITE FILE_PATH="coverage/tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1626198528110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
   </component>
 </project>
