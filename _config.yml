@@ -58,13 +58,13 @@ classify:
   layout:  subjects
   enabled: all
   permalinks:
-    year:            "/:year/"
-#    month:           "/:year/:month/"
-#    day:             "/:year/:month/:day/"
-#    year_week:       "/:year/week/:week/"
-#    week:            "/week/:week/"
+    year:      "/:year/"
+    month:     "/:year/:month/"
+    day:       "/:year/:month/:day/"
+    year_week: "/:year/week/:week/"
+    week:      "/week/:week/"
+#    category:  "/category/:category/"
 #    tag:             "/tag/:tag/"
-#    category:        "/category/:category/"
 ##    categories:      "/categories/:categories/"
 #    tags:            "/tags/:tags/"
 #    category_tag:    "/category_tag/:category/:tag/"
@@ -75,51 +75,63 @@ templates: &default
   category: 0
 
 cjyb: &cjyb
-  tags: [ 1, 2, 3, 4 ]
+  keys: [ 分类, 子类, 名字, 地点, 来源, 花费, 人数 ]
+  tag: [ 1, 2, 3, 4 ]
   count: 5
 
 yule: &yule
-  tags: [ 1, 2, 3, 4 ]
+  keys: [ 分类, 子类, 名字, 地点, 来源, 花费, 人数 ]
+  tag: [ 1, 2, 3, 4 ]
   count: 5
 
 lkui: &lkui
-  tags: [ 1, 2, 3, 4 ]
+  keys: [ 分类, 子类, 名字, 地点, 来源, 花费, 人数 ]
+  tag: [ 1, 2, 3, 4 ]
   count: 5
 
 icui: &icui
-  tags: [ 1, 2, 3, 4 ]
+  keys: [ 分类, 子类, 名字, 地点, 来源, 花费, 人数, 数量 ]
+  tag: [ 1, 2, 3, 4 ]
   count: 5
 
 jnts: &jnts
-  tags: [ 1, 4 ]
+  keys: [ 分类, 子类, 起点, 终点, 来源, 花费, 人数 ]
+  tag: [ 1, 4 ]
   count: 5
 
 hrkr: &hrkr
-  tags: [ 1, 2, 3 ]
+  keys: [ 分类, 子类, 目标, 来源, 花费 ]
+  tag: [ 1, 2, 3 ]
   count: 4
 
 ugho: &ugho
-  tags: [ 1, 2, 3, 4 ]
+  keys: [ 分类, 子类, 名字, 地点, 来源, 花费, 人数, 数量 ]
+  tag: [ 1, 2, 3, 4 ]
   count: 5
 
 tsxb: &tsxb
-  tags: [ 1, 2, 5 ]
+  keys: [ 分类, 子类, 名称, 起点, 来源, 终点, 花费 ]
+  tag: [ 1, 2, 5 ]
   count: 6
 
 yewu: &yewu
-  tags: [ 1, 2, 3, 4 ]
+  keys: [ 分类, 子类, 名称, 对象, 来源, 花费 ]
+  tag: [ 1, 2, 3, 4 ]
   count: 5
 
 viiu: &viiu
-  tags: [ 1, 2, 3, 4 ]
+  keys: [ 分类, 子类, 名称, 对象, 来源, 花费 ]
+  tag: [ 1, 2, 3, 4 ]
   count: 5
 
 rfqk: &rfqk
-  tags: [ 1, 2, 3, 4 ]
+  keys: [ 分类, 子类, 名称, 对象, 来源, 花费, 人数, 数量 ]
+  tag: [ 1, 2, 3, 4 ]
   count: 5
 
 yiln: &yiln
-  tags: [ 1, 2, 3, 4 ]
+  keys: [ 分类, 子类, 名字, 地点, 来源, 花费 ]
+  tag: [ 1, 2, 3, 4 ]
   count: 5
 
 tally:
@@ -137,4 +149,41 @@ tally:
     viiu: *viiu
     rfqk: *rfqk
     yiln: *yiln
+
+
+
+
+#    2021-07-06:
+#      jnts:
+#        - 分类 子类  起点   终点  来源 花费 人数
+#        - 交通 公交  六约  丹竹头 微信 1.2   1
+#        - 交通 公交 丹竹头  六约  微信 2.4   1
+#
+#    2021-07-07:
+#
+#      - 餐饮 中饭 大掌柜 美团 16.2 1
+#      -
+#
+#    2021-07-08:
+#    2021-07-09:
+#
+#      - 餐饮 中饭 霸碗 美团 16.2 1
+#    2021-07-10:
+#    2021-07-11:
+#    2021-07-12:
+#    2021-07-13:
+#    2021-07-14:
+#    2021-07-15:
+#    2021-07-16:
+#    2021-07-17:
+#    2021-07-18:
+#    2021-07-19:
+#    2021-07-20:
+#    2021-07-21:
+#    2021-07-22:
+#    2021-07-23:
+#    2021-07-24:
+#    2021-07-25:
+#    2021-07-26:
+#    2021-07-27:
 
