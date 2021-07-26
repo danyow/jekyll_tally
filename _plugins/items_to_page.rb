@@ -5,6 +5,7 @@ require "jekyll"
 module Jekyll
   module Tally
 
+    autoload :BasePage, "pages/base_page"
     autoload :DayPage, "pages/day_page"
     autoload :MonthPage, "pages/month_page"
     autoload :MultiplePage, "pages/multiple_page"
