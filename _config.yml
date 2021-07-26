@@ -75,52 +75,52 @@ templates: &default
   category: 0
 
 cjyb: &cjyb
-  tags: [ 1, 2, 3, 6 ]
-  count: 4
+  tags: [ 1, 2, 3, 4 ]
+  count: 5
 
 yule: &yule
-  tags: [ 1, 2, 3, 6 ]
-  count: 4
+  tags: [ 1, 2, 3, 4 ]
+  count: 5
 
 lkui: &lkui
-  tags: [ 1, 2, 3, 6 ]
-  count: 4
+  tags: [ 1, 2, 3, 4 ]
+  count: 5
 
 icui: &icui
-  tags: [ 1, 2, 3, 6 ]
-  count: 4
+  tags: [ 1, 2, 3, 4 ]
+  count: 5
 
 jnts: &jnts
-  tags: [ 1, 6 ]
-  count: 4
+  tags: [ 1, 4 ]
+  count: 5
 
 hrkr: &hrkr
   tags: [ 1, 2, 3 ]
   count: 4
 
 ugho: &ugho
-  tags: [ 1, 2, 3, 6 ]
-  count: 4
-
-tsxb: &tsxb
-  tags: [ 1, 2, 6 ]
+  tags: [ 1, 2, 3, 4 ]
   count: 5
 
+tsxb: &tsxb
+  tags: [ 1, 2, 5 ]
+  count: 6
+
 yewu: &yewu
-  tags: [ 1, 2, 3, 5 ]
-  count: 4
+  tags: [ 1, 2, 3, 4 ]
+  count: 5
 
 viiu: &viiu
-  tags: [ 1, 2, 3, 5 ]
-  count: 4
+  tags: [ 1, 2, 3, 4 ]
+  count: 5
 
 rfqk: &rfqk
-  tags: [ 1, 2, 3, 6 ]
-  count: 4
+  tags: [ 1, 2, 3, 4 ]
+  count: 5
 
 yiln: &yiln
-  tags: [ 1, 2, 3, 5 ]
-  count: 4
+  tags: [ 1, 2, 3, 4 ]
+  count: 5
 
 tally:
   default: *default
