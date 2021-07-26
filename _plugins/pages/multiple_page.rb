@@ -1,6 +1,9 @@
 module Jekyll
   module Tally
-    class MultiplePage < Tally::BasePage
+
+    autoload :BasePage, "base_page"
+
+    class MultiplePage < BasePage
 
       # def get_content
       #   "MultiplePage"

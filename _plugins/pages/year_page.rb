@@ -1,6 +1,9 @@
 module Jekyll
   module Tally
-    class YearPage < Tally::BasePage
+
+    autoload :BasePage, "base_page"
+
+    class YearPage < BasePage
 
       def get_content
         docs_to_content(get_docs)

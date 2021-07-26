@@ -1,6 +1,9 @@
 module Jekyll
   module Tally
-    class SinglePage < Tally::BasePage
+
+    autoload :BasePage, "base_page"
+
+    class SinglePage < BasePage
 
       # def get_content
       #   "SinglePage"

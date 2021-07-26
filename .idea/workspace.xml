@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="子库删除" />
+    <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="魔改?">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/pages/day_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/pages/day_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/pages/month_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/pages/month_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/pages/multiple_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/pages/multiple_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/pages/single_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/pages/single_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/pages/week_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/pages/week_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/pages/weeks_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/pages/weeks_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/pages/year_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/pages/year_page.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,6 +108,7 @@
       <workItem from="1627178264954" duration="6314000" />
       <workItem from="1627257170526" duration="9109000" />
       <workItem from="1627269076053" duration="12507000" />
+      <workItem from="1627291813233" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="提交内容代码">
       <created>1626082227963</created>
@@ -289,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627290468058</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="魔改?">
+      <created>1627292119229</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1627292119229</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +337,8 @@
     <MESSAGE value="重新来" />
     <MESSAGE value="提交看看" />
     <MESSAGE value="子库删除" />
-    <option name="LAST_COMMIT_MESSAGE" value="子库删除" />
+    <MESSAGE value="魔改?" />
+    <option name="LAST_COMMIT_MESSAGE" value="魔改?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
