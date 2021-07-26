@@ -4,7 +4,7 @@ require 'jekyll'
 
 module Jekyll
   module Tally
-    class BasePage < Page
+    class BasePage < Jekyll::Page
       attr_accessor :docs, :type, :slug
 
       ATTRIBUTES_FOR_LIQUID = %w(

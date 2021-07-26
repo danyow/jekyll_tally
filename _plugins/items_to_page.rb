@@ -1,5 +1,18 @@
+# frozen_string_literal: true
+
+require "jekyll"
+
 module Jekyll
   module Tally
+
+    autoload :DayPage, "pages/day_page"
+    autoload :MonthPage, "pages/month_page"
+    autoload :MultiplePage, "pages/multiple_page"
+    autoload :SinglePage, "pages/single_page"
+    autoload :WeekPage, "pages/week_page"
+    autoload :WeeksPage, "pages/weeks_page"
+    autoload :YearPage, "pages/year_page"
+
     class ItemsToPage < Generator
       safe true
       # @param [Configuration] config

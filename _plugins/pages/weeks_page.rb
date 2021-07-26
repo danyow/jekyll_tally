@@ -1,6 +1,6 @@
 module Jekyll
   module Tally
-    class WeeksPage < BasePage
+    class WeeksPage < Tally::BasePage
 
       # def get_content
       #   "WeeksPage"

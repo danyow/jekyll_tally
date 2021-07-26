@@ -1,6 +1,6 @@
 module Jekyll
   module Tally
-    class MonthPage < BasePage
+    class MonthPage < Tally::BasePage
 
       # def get_content
       #   "MonthPage"
