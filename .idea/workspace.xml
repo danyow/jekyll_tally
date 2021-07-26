@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="???">
-      <change beforePath="$PROJECT_DIR$/.idea/jekyll_tally.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jekyll_tally.iml" afterDir="false" />
+    <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="插件!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/docs_to_items.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/hooks.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/item.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/items_to_page.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/methods.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/pages/base_page.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/pages/day_page.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/pages/month_page.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/pages/multiple_page.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/pages/single_page.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/pages/week_page.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/pages/weeks_page.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/pages/year_page.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/utils.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/version.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +102,7 @@
       <workItem from="1627178264954" duration="6314000" />
       <workItem from="1627257170526" duration="9109000" />
       <workItem from="1627269076053" duration="12507000" />
-      <workItem from="1627291813233" duration="6275000" />
+      <workItem from="1627291813233" duration="7153000" />
     </task>
     <task id="LOCAL-00001" summary="提交内容代码">
       <created>1626082227963</created>
@@ -339,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627293493578</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="插件!">
+      <created>1627298930131</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1627298930131</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +361,8 @@
     <MESSAGE value="子库删除" />
     <MESSAGE value="魔改?" />
     <MESSAGE value="???" />
-    <option name="LAST_COMMIT_MESSAGE" value="???" />
+    <MESSAGE value="插件!" />
+    <option name="LAST_COMMIT_MESSAGE" value="插件!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -412,7 +402,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/jekyll_tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1627298617402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
+    <SUITE FILE_PATH="coverage/jekyll_tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1627298898279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
     <SUITE FILE_PATH="coverage/tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1626198528110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
   </component>
 </project>
