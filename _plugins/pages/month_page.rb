@@ -3,7 +3,7 @@ module Jekyll
 
 
 
-    class MonthPage < BasePage
+    class MonthPage < Tally::BasePage
 
       # def get_content
       #   "MonthPage"

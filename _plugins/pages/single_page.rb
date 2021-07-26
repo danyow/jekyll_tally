@@ -3,7 +3,7 @@ module Jekyll
 
     
 
-    class SinglePage < BasePage
+    class SinglePage < Tally::BasePage
 
       # def get_content
       #   "SinglePage"

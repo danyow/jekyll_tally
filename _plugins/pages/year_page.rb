@@ -3,7 +3,7 @@ module Jekyll
 
     
 
-    class YearPage < BasePage
+    class YearPage < Tally::BasePage
 
       def get_content
         docs_to_content(get_docs)

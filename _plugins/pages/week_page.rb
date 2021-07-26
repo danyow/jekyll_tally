@@ -3,7 +3,7 @@ module Jekyll
 
     
 
-    class WeekPage < BasePage
+    class WeekPage < Tally::BasePage
 
       # def get_content
       #   "WeekPage"

@@ -3,7 +3,7 @@ module Jekyll
 
     
 
-    class MultiplePage < BasePage
+    class MultiplePage < Tally::BasePage
 
       # def get_content
       #   "MultiplePage"
