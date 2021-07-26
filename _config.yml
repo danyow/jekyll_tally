@@ -65,11 +65,11 @@ classify:
     week:            "/week/:week/"
     tag:             "/tag/:tag/"
     category:        "/category/:category/"
-    categories:      "/categories/:categories/"
+#    categories:      "/categories/:categories/"
     tags:            "/tags/:tags/"
-    category_tag:    "/category_tag/:category/:tag/"
-    category_tags:   "/category_tags/:category/:tags/"
-    categories_tags: "/categories_tags/:categories/:tags/"
+#    category_tag:    "/category_tag/:category/:tag/"
+#    category_tags:   "/category_tags/:category/:tags/"
+#    categories_tags: "/categories_tags/:categories/:tags/"
 
 templates: &default
   category: 0

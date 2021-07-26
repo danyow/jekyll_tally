@@ -4,10 +4,8 @@
     <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="提交看看">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/base_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/lib_jekyll_tags/pages/base_page.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2021-06-11.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-06-11.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-06-22.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,8 @@
       <workItem from="1626738836733" duration="10308000" />
       <workItem from="1626779960951" duration="126000" />
       <workItem from="1627012497761" duration="9469000" />
-      <workItem from="1627178264954" duration="6268000" />
+      <workItem from="1627178264954" duration="6314000" />
+      <workItem from="1627257170526" duration="2036000" />
     </task>
     <task id="LOCAL-00001" summary="提交内容代码">
       <created>1626082227963</created>
@@ -226,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627182439708</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="提交看看">
+      <created>1627184548715</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1627184548715</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +294,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/jekyll_tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1627184367685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
+    <SUITE FILE_PATH="coverage/jekyll_tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1627259020345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
     <SUITE FILE_PATH="coverage/tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1626198528110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
   </component>
 </project>
