@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="插件!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-    </list>
+    <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="插件!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +99,7 @@
       <workItem from="1627178264954" duration="6314000" />
       <workItem from="1627257170526" duration="9109000" />
       <workItem from="1627269076053" duration="12507000" />
-      <workItem from="1627291813233" duration="7153000" />
+      <workItem from="1627291813233" duration="7262000" />
     </task>
     <task id="LOCAL-00001" summary="提交内容代码">
       <created>1626082227963</created>
@@ -328,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627298930131</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="插件!">
+      <created>1627299762677</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1627299762677</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
