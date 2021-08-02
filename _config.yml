@@ -60,10 +60,10 @@ classify:
   enabled: all
   permalinks:
     year:      "/:year/"
-    month:     "/:year/:month/"
-    day:       "/:year/:month/:day/"
-    year_week: "/:year/week/:week/"
-    week:      "/week/:week/"
+#    month:     "/:year/:month/"
+#    day:       "/:year/:month/:day/"
+#    year_week: "/:year/week/:week/"
+#    week:      "/week/:week/"
 #    category:  "/category/:category/"
 #    tag:             "/tag/:tag/"
 ##    categories:      "/categories/:categories/"
@@ -75,62 +75,62 @@ classify:
 templates: &default
   category: 0
 
-cjyb: &cjyb
+餐饮: &cjyb
   keys: [ 分类, 子类, 名字, 地点, 来源, 花费, 人数 ]
   tag: [ 1, 2, 3, 4 ]
   count: 5
 
-yule: &yule
+娱乐: &yule
   keys: [ 分类, 子类, 名字, 地点, 来源, 花费, 人数 ]
   tag: [ 1, 2, 3, 4 ]
   count: 5
 
-lkui: &lkui
+零食: &lkui
   keys: [ 分类, 子类, 名字, 地点, 来源, 花费, 人数 ]
   tag: [ 1, 2, 3, 4 ]
   count: 5
 
-icui: &icui
+超市: &icui
   keys: [ 分类, 子类, 名字, 地点, 来源, 花费, 人数, 数量 ]
   tag: [ 1, 2, 3, 4 ]
   count: 5
 
-jnts: &jnts
+交通: &jnts
   keys: [ 分类, 子类, 起点, 终点, 来源, 花费, 人数 ]
   tag: [ 1, 4 ]
   count: 5
 
-hrkr: &hrkr
+还款: &hrkr
   keys: [ 分类, 子类, 目标, 来源, 花费 ]
   tag: [ 1, 2, 3 ]
   count: 4
 
-ugho: &ugho
+生活: &ugho
   keys: [ 分类, 子类, 名字, 地点, 来源, 花费, 人数, 数量 ]
   tag: [ 1, 2, 3, 4 ]
   count: 5
 
-tsxb: &tsxb
+通信: &tsxb
   keys: [ 分类, 子类, 名称, 起点, 来源, 终点, 花费 ]
   tag: [ 1, 2, 5 ]
   count: 6
 
-yewu: &yewu
+业务: &yewu
   keys: [ 分类, 子类, 名称, 对象, 来源, 花费 ]
   tag: [ 1, 2, 3, 4 ]
   count: 5
 
-viiu: &viiu
+支出: &viiu
   keys: [ 分类, 子类, 名称, 对象, 来源, 花费 ]
   tag: [ 1, 2, 3, 4 ]
   count: 5
 
-rfqk: &rfqk
+人情: &rfqk
   keys: [ 分类, 子类, 名称, 对象, 来源, 花费, 人数, 数量 ]
   tag: [ 1, 2, 3, 4 ]
   count: 5
 
-yiln: &yiln
+医疗: &yiln
   keys: [ 分类, 子类, 名字, 地点, 来源, 花费 ]
   tag: [ 1, 2, 3, 4 ]
   count: 5
@@ -138,15 +138,15 @@ yiln: &yiln
 tally:
   default: *default
   templates:
-    cjyb: *cjyb
-    yule: *yule
-    lkui: *lkui
-    icui: *icui
-    jnts: *jnts
-    hrkr: *hrkr
-    ugho: *ugho
-    tsxb: *tsxb
-    yewu: *yewu
-    viiu: *viiu
-    rfqk: *rfqk
-    yiln: *yiln
+    餐饮: *cjyb
+    娱乐: *yule
+    零食: *lkui
+    超市: *icui
+    交通: *jnts
+    还款: *hrkr
+    生活: *ugho
+    通信: *tsxb
+    业务: *yewu
+    支出: *viiu
+    人情: *rfqk
+    医疗: *yiln

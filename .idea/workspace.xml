@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="插件!" />
+    <list default="true" id="45e559f5-473c-40b2-922c-4867b9d3752e" name="默认变更列表" comment="插件!">
+      <change afterPath="$PROJECT_DIR$/_posts/2021-03-14.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-06-11.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/2021-03-14.markdown" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,18 +44,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gem/jekyll-tally-tags" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\jekyll\jekyll_tally\_plugins" />
       <recent name="E:\jekyll\jekyll_tally" />
+      <recent name="E:\jekyll\jekyll_tally\_plugins" />
       <recent name="C:\Users\YF\Documents\jekyll\tally" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -100,6 +105,9 @@
       <workItem from="1627257170526" duration="9109000" />
       <workItem from="1627269076053" duration="12507000" />
       <workItem from="1627291813233" duration="7262000" />
+      <workItem from="1627354102922" duration="782000" />
+      <workItem from="1627631288205" duration="4953000" />
+      <workItem from="1627903012972" duration="3867000" />
     </task>
     <task id="LOCAL-00001" summary="提交内容代码">
       <created>1626082227963</created>
@@ -332,7 +340,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627299762677</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="插件!">
+      <created>1627354118231</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1627354118231</updated>
+    </task>
+    <task id="LOCAL-00035" summary="插件!">
+      <created>1627635677856</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1627635677856</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,12 +410,12 @@
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://D:/Scoop/persist/ruby/gems/gems/jekyll-tally-tags-0.1.2/lib/jekyll-tally-tags/items_to_page.rb</url>
-          <line>28</line>
+          <url>file://D:/Scoop/persist/ruby/gems/gems/jekyll-tally-tags-0.1.2/lib/jekyll-tally-tags/utils.rb</url>
+          <line>24</line>
           <properties myBlockOrdinal="-1">
             <option name="block-ordinal" value="-1" />
           </properties>
-          <option name="timeStamp" value="74" />
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -406,7 +428,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/jekyll_tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1627298898279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
+    <SUITE FILE_PATH="coverage/jekyll_tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1627906866121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
     <SUITE FILE_PATH="coverage/tally@server.rcov" NAME="server 覆盖结果" MODIFIED="1626198528110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="jekyll_tally" />
   </component>
 </project>
